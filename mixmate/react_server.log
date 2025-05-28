@@ -903,3 +903,93 @@ ERROR in ./src/supabase/client.js 6:0-53
 Module not found: Error: Can't resolve '@supabase/supabase-js' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/supabase'
 
 webpack compiled with 10 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+WARNING in [eslint] 
+src/App.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/Explore.js
+  Line 3:10:  'useSession' is defined but never used  no-unused-vars
+
+src/pages/Generator.js
+  Line 24:19:  'error' is assigned a value but never used  no-unused-vars
+
+src/supabase/SessionContext.js
+  Line 12:21:  'error' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+
+ERROR in ./src/App.js 14:0-46
+Module not found: Error: Can't resolve './pages/AIBartender' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+
+ERROR in ./src/components/Sidebar.js 5:0-43
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/components/Sidebar.js 6:0-114
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/components/Topbar.js 6:0-54
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/pages/Favorites.js 8:0-40
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/pages/ShoppingList.js 8:0-41
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/pages/Trending.js 7:0-43
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/supabase/client.js 6:0-53
+Module not found: Error: Can't resolve '@supabase/supabase-js' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/supabase'
+
+webpack compiled with 9 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+WARNING in [eslint] 
+src/App.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/Explore.js
+  Line 3:10:  'useSession' is defined but never used  no-unused-vars
+
+src/pages/Generator.js
+  Line 24:19:  'error' is assigned a value but never used  no-unused-vars
+
+src/supabase/SessionContext.js
+  Line 12:21:  'error' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/App.js 6:0-84
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+
+ERROR in ./src/App.js 14:0-46
+Module not found: Error: Can't resolve './pages/AIBartender' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
+
+ERROR in ./src/components/Sidebar.js 5:0-43
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/components/Sidebar.js 6:0-114
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/components/Topbar.js 6:0-54
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/components'
+
+ERROR in ./src/pages/Favorites.js 8:0-40
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/pages/ShoppingList.js 8:0-41
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/pages/Trending.js 7:0-43
+Module not found: Error: Can't resolve 'react-icons/fa' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/pages'
+
+ERROR in ./src/supabase/client.js 6:0-53
+Module not found: Error: Can't resolve '@supabase/supabase-js' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src/supabase'
+
+webpack compiled with 9 errors and 1 warning
