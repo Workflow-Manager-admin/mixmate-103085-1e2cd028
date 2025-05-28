@@ -189,3 +189,4 @@ ERROR in ./src/App.js 16:0-67
 Module not found: Error: Can't resolve './supabase/SessionContext' in '/home/kavia/workspace/code-generation/mixmate-103085-1e2cd028/mixmate/src'
 
 webpack compiled with 11 errors and 1 warning
+Compiling...
