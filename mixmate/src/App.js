@@ -1,36 +1,46 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
+import Explore from './pages/Explore';
+import Generator from './pages/Generator';
+import Favorites from './pages/Favorites';
+import ShoppingList from './pages/ShoppingList';
+import Trending from './pages/Trending';
+import AIBartender from './pages/AIBartender';
+import LiquorPairings from './pages/LiquorPairings';
+import { SessionContextProvider } from './supabase/SessionContext';
 import './App.css';
 
+// PUBLIC_INTERFACE
 function App() {
-  return (
-    <div className="app">
-      <nav className="navbar">
-        <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-            <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
-            </div>
-            <button className="btn">Template Button</button>
-          </div>
-        </div>
-      </nav>
+  // Sidebar collapse for mobile menu
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
-      <main>
-        <div className="container">
-          <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">mixmate</h1>
-            
-            <div className="description">
-              Start building your application.
-            </div>
-            
-            <button className="btn btn-large">Button</button>
+  return (
+    <SessionContextProvider>
+      <Router>
+        <div className="mixmate-app">
+          <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
+          <div className="main-content">
+            <Topbar onMenu={() => setSidebarOpen((open) => !open)} />
+            <main className="mixmate-main">
+              <Routes>
+                <Route path="/" element={<Navigate to="/explore" />} />
+                <Route path="/explore" element={<Explore />} />
+                <Route path="/generator" element={<Generator />} />
+                <Route path="/favorites" element={<Favorites />} />
+                <Route path="/shopping-list" element={<ShoppingList />} />
+                <Route path="/trending" element={<Trending />} />
+                <Route path="/pairings" element={<LiquorPairings />} />
+                <Route path="/ai-bartender" element={<AIBartender />} />
+                <Route path="*" element={<Navigate to="/explore" />} />
+              </Routes>
+            </main>
           </div>
         </div>
-      </main>
-    </div>
+      </Router>
+    </SessionContextProvider>
   );
 }
 
